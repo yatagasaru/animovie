@@ -8,7 +8,7 @@ import useMovie from '../../hooks/useMovie'
 import Header from '../../components/Header'
 import {useProvider} from '../../AppProvider'
 import {ShortMovieList} from '../../types'
-import Scroller from '../../Scroller'
+import Scroller from '../../components/Scroller'
 
 const Movie = () => {
   const {search, isLoading, searchData, fetchMore, pageInfo} = useMovie()
